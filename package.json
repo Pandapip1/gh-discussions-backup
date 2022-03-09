@@ -1,0 +1,25 @@
+{
+  "name": "gh-discussions-backup",
+  "version": "1.0.0",
+  "description": "A GitHub action to automatically backup a GitHub repository's discussions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pandapip1/gh-discussions-backup.git"
+  },
+  "author": "Pandapip1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pandapip1/gh-discussions-backup/issues"
+  },
+  "homepage": "https://github.com/Pandapip1/gh-discussions-backup#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0",
+    "graphql-request": "^4.0.0",
+    "relay-runtime": "^13.1.1"
+  }
+}
