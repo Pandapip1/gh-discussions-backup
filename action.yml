@@ -1,0 +1,13 @@
+name: 'Back Up GitHub Discussions'
+description: 'Automatically back up a GitHub repository's discussions'
+inputs:
+  hastebin:
+    required: true
+    description: 'The Hastebin server'
+    default: 'https://www.toptal.com/developers/hastebin'
+outputs:
+  backup:
+    description: 'A URL with the backup'
+runs:
+  using: 'node16'
+  main: 'index.js'
